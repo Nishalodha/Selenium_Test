@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="com.clariontechnologies.tests.LoginPageTest">
+        <methods>
+          <include name="verify_promise_is_added"/>
+          <include name="verify_user_login"/>
+          <include name="verify_add_promise_after_click_on_log_promise_button"/>
+        </methods>
+      </class> <!-- com.clariontechnologies.tests.LoginPageTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

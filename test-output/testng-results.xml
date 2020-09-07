@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="13953" started-at="2020-09-07T03:56:31 PDT" finished-at="2020-09-07T03:56:45 PDT">
+    <groups>
+    </groups>
+    <test name="SanityTest" duration-ms="13953" started-at="2020-09-07T03:56:31 PDT" finished-at="2020-09-07T03:56:45 PDT">
+      <class name="com.clariontechnologies.tests.SanityTest">
+        <test-method status="PASS" signature="verify_user_login(com.clariontechnologies.model.LoginDetail)[pri:0, instance:com.clariontechnologies.tests.SanityTest@1e965684]" name="verify_user_login" duration-ms="8603" started-at="2020-09-07T03:56:31 PDT" description="Verify the User Login with blankspace and valid credential" data-provider="loginDataProvider" finished-at="2020-09-07T03:56:39 PDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.clariontechnologies.model.LoginDetail@319b92f3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_user_login -->
+        <test-method status="PASS" signature="verify_user_login(com.clariontechnologies.model.LoginDetail)[pri:0, instance:com.clariontechnologies.tests.SanityTest@1e965684]" name="verify_user_login" duration-ms="1109" started-at="2020-09-07T03:56:39 PDT" description="Verify the User Login with blankspace and valid credential" data-provider="loginDataProvider" finished-at="2020-09-07T03:56:40 PDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.clariontechnologies.model.LoginDetail@302a07d]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_user_login -->
+        <test-method status="PASS" signature="verify_add_promise_after_click_on_log_promise_button()[pri:0, instance:com.clariontechnologies.tests.SanityTest@1e965684]" name="verify_add_promise_after_click_on_log_promise_button" duration-ms="2222" started-at="2020-09-07T03:56:40 PDT" description="Verify Add Promise after click on Log Promise button" depends-on-methods="com.clariontechnologies.tests.SanityTest.verify_user_login" finished-at="2020-09-07T03:56:43 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_add_promise_after_click_on_log_promise_button -->
+        <test-method status="PASS" signature="verify_promise_is_added()[pri:0, instance:com.clariontechnologies.tests.SanityTest@1e965684]" name="verify_promise_is_added" duration-ms="1339" started-at="2020-09-07T03:56:43 PDT" description="verify Promise is added after click on search button" depends-on-methods="com.clariontechnologies.tests.SanityTest.verify_add_promise_after_click_on_log_promise_button" finished-at="2020-09-07T03:56:44 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_promise_is_added -->
+        <test-method status="PASS" signature="verify_user_logout()[pri:0, instance:com.clariontechnologies.tests.SanityTest@1e965684]" name="verify_user_logout" duration-ms="369" started-at="2020-09-07T03:56:44 PDT" description="verify user successfully logout" depends-on-methods="com.clariontechnologies.tests.SanityTest.verify_promise_is_added" finished-at="2020-09-07T03:56:44 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_user_logout -->
+        <test-method status="PASS" signature="closebrowser()[pri:0, instance:com.clariontechnologies.tests.SanityTest@1e965684]" name="closebrowser" is-config="true" duration-ms="200" started-at="2020-09-07T03:56:44 PDT" description="Close Browser" finished-at="2020-09-07T03:56:45 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+      </class> <!-- com.clariontechnologies.tests.SanityTest -->
+    </test> <!-- SanityTest -->
+  </suite> <!-- Suite -->
+</testng-results>
